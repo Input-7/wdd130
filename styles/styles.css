@@ -1,0 +1,70 @@
+/* General page styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f7f5;
+    color: #222222;
+    margin: 20px;
+}
+
+/* Header and navigation */
+header {
+    background-color: #14532d;
+    padding: 15px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 15px;
+}
+
+/* Main content */
+main {
+    max-width: 840px;
+    margin: 20px auto;
+    padding: 15px;
+    background-color: white;
+}
+
+/* All images */
+img {
+    height: auto;
+}
+
+/* Profile picture */
+main img {
+    width: 150px;
+    height: auto;
+    border: 3px solid #14532d;
+}
+
+/* Nigeria section */
+aside {
+    width: 300px;
+    margin: 20px auto;
+    border: 2px solid #14532d;
+    padding: 10px;
+    background-color: #e8f5e9;
+    color: black;
+}
+
+/* Nigeria picture */
+aside img {
+    width: 200px;
+    height: auto;
+}
+
+/* Paragraphs */
+p {
+    padding: 0;
+    line-height: 1.5;
+}
+
+/* Footer */
+footer {
+    margin-top: 20px;
+    border-top: 2px solid #14532d;
+    text-align: center;
+    padding: 10px;
+    color: #14532d;
+}
