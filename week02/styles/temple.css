@@ -1,0 +1,83 @@
+/* page  */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+    color: #333;
+}
+
+/* Header */
+header {
+    background-color: #003366;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+header p {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+/* Main content */
+main {
+    max-width: 700px;
+    margin: 30px auto;
+    padding: 25px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+}
+
+h1 {
+    text-align: center;
+    color: #003366;
+}
+
+h2 {
+    color: #003366;
+    border-bottom: 2px solid #ccc;
+    padding-bottom: 8px;
+}
+
+/* Temple image */
+picture img {
+    display: block;
+    width: 100%;
+    max-width: 500px;
+    height: auto;
+    margin: 20px auto;
+    border-radius: 5px;
+}
+
+/* Paragraphs & links */
+p {
+    line-height: 1.6;
+}
+
+a {
+    color: #0066cc;
+}
+
+a:hover {
+    color: #003366;
+}
+
+/* Visiting information */
+ul {
+    line-height: 2;
+}
+
+/* Footer */
+footer {
+    background-color: #003366;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    margin-top: 30px;
+}
+
+* {
+    box-sizing: border-box;
+}
