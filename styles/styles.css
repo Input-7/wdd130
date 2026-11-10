@@ -1,4 +1,8 @@
-/* General page styling */
+* {
+    box-sizing: border-box;
+}
+
+/* page */
 body {
     font-family: Arial, sans-serif;
     background-color: #f4f7f5;
@@ -12,13 +16,13 @@ header {
     padding: 15px;
 }
 
-/* Navigation */
+/* Nav */
 nav {
     background-color: #14532d;
     padding: 10px;
 }
 
-/* Navigation links */
+/* Nav links */
 nav a {
     color: white;
     padding: 10px;
@@ -27,7 +31,7 @@ nav a {
     margin: 15px;
 }
 
-/* Main content */
+/* Main */
 main {
     max-width: 840px;
     margin: 20px auto;
@@ -54,9 +58,10 @@ main img {
     box-shadow: 0 0 10px gray;
 }
 
-/* Nigeria section */
+/* Nigeria */
 aside {
-    width: 300px;
+    width: 350px;
+    max-width: 100%;
     margin: 20px auto;
     border: 2px solid #14532d;
     padding: 10px;
